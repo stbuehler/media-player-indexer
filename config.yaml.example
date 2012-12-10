@@ -1,0 +1,6 @@
+sources:
+-
+  local: /home/music
+  url: /music
+database: sqlite://music.sqlite3
+output-json: music.json
