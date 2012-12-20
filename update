@@ -309,8 +309,8 @@ class WebDB
     @files << {
       :name => media.title,
       :url => @mapping.map(media.file.fullpath),
-      :artist => artistid,
-      :album => albumid,
+      :artist_id => artistid,
+      :album_id => albumid,
       :track => media.track,
       :genre => media.genre,
       :length => media.length
