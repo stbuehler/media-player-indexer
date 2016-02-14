@@ -1,3 +1,4 @@
 *.sqlite3
 config*.yaml
 *.json
+.bundle

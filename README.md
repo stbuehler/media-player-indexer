@@ -13,4 +13,11 @@ of the media-player-web or absolute).
 By default it uses a sqlite3 database (which should be good enough for this).
 
 
+Running
+=======
+
 Use "bundle" to install the needed gem dependencies.
+
+Then run "./update" (or "./update config.yaml").
+
+First it will scan the sources for all files (be patient!), and then extract the meta data from the files.
